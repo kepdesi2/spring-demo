@@ -20,4 +20,11 @@ public class UserController {
 	public String error() {
  		return "access-denied";
  	}
+	
+
+	@RequestMapping(value="/log")
+	public String log() {
+ 		return "loged";
+ 	}
+	
 }	 
